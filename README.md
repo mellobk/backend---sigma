@@ -3,7 +3,8 @@ backend prueba sigma
 
 
 # 1 clonar repositorio
-# 2 ejecutar el servidor php artisan serve
+# 2 entrar en la carpeta del repositorio
+# 3 ejecutar el servidor php artisan serve
 
 
 # urls activas 
