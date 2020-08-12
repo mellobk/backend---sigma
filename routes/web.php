@@ -15,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::post('/createContac', 'ContacController@createContac'); 
 Route::get('/getContacs', 'ContacController@getContacs'); 
+Route::get('/getStates', 'ContacController@getStates'); 

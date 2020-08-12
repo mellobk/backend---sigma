@@ -20,6 +20,15 @@ class ContacController extends Controller
          
         ];
     }
+
+    public function getStates(request $request)
+    {    
+        $states=file_get_contents('https://sigma-studios.s3-us-west-2.amazonaws.com/test/colombia.json');
+           
+     
+        return json_decode( $states,true);
+    }
+
     public function createContac(request $request)
     {
         
