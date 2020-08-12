@@ -10,4 +10,5 @@ backend prueba sigma
 # urls activas 
 1-/createContac para crear un nuevo contacto en la base de datos
 2-/getContacs para obtener todos los contactos de la base de datos
+3-/getState para obtener todos departamentos y ciudades de la api ed aws
 
