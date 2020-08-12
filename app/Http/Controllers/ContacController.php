@@ -40,10 +40,10 @@ class ContacController extends Controller
 
             //validar datos
             $validate = \Validator::make($params, [
-                'name' => 'required',
-                'state' => 'required',
-                'email' => 'required',
-                'city' => 'required',
+                'name' => 'required|max:50',
+                'state' => 'required|max:30',
+                'email' => 'required|max:30',
+                'city' => 'required|max:50',
 
             ]);
 
